@@ -1,16 +1,17 @@
 ---
-title: false
+title: CAP LTER IM
 subtitle: false
 author: false
 date: false
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: ["default", "assets/my-theme.css", "libs/remark-css/default-fonts.css"]
+    css: ["default", "assets/my-theme.css", "libs/remark-css/default-fonts.css", "uo-fonts"]
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+    seal: false
 ---
 
 ```{r setup, include=FALSE}
@@ -34,19 +35,30 @@ background-size: cover
 ---
 .slide-title-font[goals]
 
-* support CAP LTER knowledge enterprise
+.middle[
+archive well-structured and -documented research data in a long-term data repository for the benefit of the scientific community, decision makers, and public
+]
 
---
+---
+.slide-title-font[goals]
 
-* archive well-structured and -documented research data in a long-term data repository for the benefit of the scientific community, decision makers, and public
+.middle[
+enable and promote data discovery and access
+]
 
---
+---
+.slide-title-font[goals]
 
-* enable and promote data discovery and access
+.middle[
+support CAP LTER knowledge-generating enterprise
+]
 
---
+---
+.slide-title-font[goals]
 
-* provide leadership and education on sound information management
+.middle[
+provide leadership and education on sound information management
+]
 
 ???
 
@@ -67,9 +79,7 @@ class: top
 
 
 ---
-.slide-title-font[workflow]
-
-*from data generation to publication*
+.slide-title-font[workflow] *from data generation to publication*
 
 .center[
   <img src="assets/figures/cap_im_workflow.png" width="90%">
@@ -79,35 +89,58 @@ class: top
 
 # workflow
 
-
 ---
-.slide-title-font[data access]
+.slide-title-font[data policies]
 
-.center[
-  <img src="assets/figures/multiple-data-portals.png" width="100%">
+.middle[
+
+* metadata encoded in the Ecological Metadata Language schema
+
+* Creative Commons: CC0 – No Rights Reserved<sup>*</sup>
+
+* novel research results published within 2 years of project completion<sup>*</sup>
+
+* ~ annual updates to long-term monitoring data
+]
+
+.small[
+<sup>*</sup>per LTER Network policy
 ]
 
 ???
 
-# data access
+# policies
 
 
 ---
 .slide-title-font[data access]
 
-.small[~ 24K file downloads]
-
 .center[
   <img src="assets/figures/download_stats.png" width="100%">
+]
+
+.center[
+.small[~ 24K file downloads]
 ]
 
 ???
 
 # data use
 
+---
+.slide-title-font[data access]
+
+<br>
+<br>
+
+.middle-big-text[
+Zhang, Y. and B. Turner II. 2020. Land-cover mapping of the central Arizona region based on 2015 National Agriculture Imagery Program (NAIP) imagery ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/e671ed549a55fda3338b177a2ad54487 (Accessed 2020-10-18).
+]
 
 ---
-.slide-title-font[education and leadership]
+.slide-title-font[education]
+
+.middle[
 
 * events
 
@@ -115,13 +148,15 @@ class: top
 
 * embed with labs
 
+]
+
 ???
 
-# outreach
+# education
 
 
 ---
-.slide-title-font[education and leadership]
+.slide-title-font[education]
 
 .center[
   <img src="assets/figures/rdm.png" width="100%">
@@ -129,60 +164,90 @@ class: top
 
 ???
 
-# RDM
+# education: RDM
 
 
 ---
-.slide-title-font[education and leadership]
+.slide-title-font[engagement] .wildstrawberry[*LTER Network; informatics and ecological communities*]
 
-<br>
-<br>
+.middle[
+co-chair, LTER Information Management Executive Committee
+]
 
-.center[
-  <img src="assets/figures/bats.png" width="100%" class="image-border">
+---
+.slide-title-font[engagement] .wildstrawberry[*LTER Network; informatics and ecological communities*]
+
+.middle[
+information manager, LTER synthesis working group(s)
+]
+
+---
+.slide-title-font[engagement] .wildstrawberry[*LTER Network; informatics and ecological communities*]
+
+.middle[
+
+* presenter, informatics and ecological conferences
+
+* co-author, informatics and ecological journals
 ]
 
 ???
 
-# bats
-
+# engagement: lter, sci.
 
 ---
-.slide-title-font[improving CAP IM]
+.slide-title-font[engagement] .wildstrawberry[*ASU and CAP LTER colleagues*]
 
-* unified data publishing and discovery system with EDI as the primary repository for all CAP data
-
---
-
-* tablet-based field data collection tools
-
---
-
-* suite of R packages (capeml, capemlGIS, gioseml) to enable a completely scripted approach to EML generation
-
---
-
-* consolidated workflows and documentation in cloud-based version control systems (GitHub, GitLab)
-
---
-
-* emphasis on including the ORCiD identifiers of data contributors
+.middle[
+contributor: proposals, data management plans, analyses
+]
 
 ???
 
-# improving CAP IM
+# engagement: ASU, CAP
+
+---
+.slide-title-font[moving forward]
+
+---
+.slide-title-font[moving forward]
+
+.middle[
+unified data publishing and discovery system with EDI as the primary repository for all CAP data
+]
 
 
 ---
-.slide-title-font[values]
+.slide-title-font[moving forward]
 
-* work with partners to leverage resources
+.middle[
+tools to enable scripted approaches to EML generation
+]
 
---
+---
+.slide-title-font[moving forward]
 
-* collaborate with the informatics community, and contribute to ecology and informatics
+.middle[
+enhance discoverability and accessibility of data (e.g., including ORCiDs,  GitHub::DataONEorg/object-formats)
+]
 
 
 ???
 
-# values
+# moving forward
+
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+.center[
+<img src="assets/figures/CAPLTERlogo-color-icon.png" width="30%">
+]
+
+???
+
+# closing slide

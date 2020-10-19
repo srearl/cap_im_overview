@@ -1,3 +1,9 @@
+.wildstrawberry {
+  color: #ff43a4;
+}
+.palevioletred {
+  color: #db7093;
+}
 .light-grey {
   color: #C8C8C8;
 }
@@ -47,4 +53,22 @@ code.r{
   border-width: 3px;
   border-color: #2e73b7;
   border-style: solid;
+}
+.middle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 400px;
+  font-size: 120%;
+  text-align: left;
+}
+.middle-big-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  font-size: 90%;
+  text-align: left;
+  border: 1px solid gray;
+  padding: 20px;
 }
