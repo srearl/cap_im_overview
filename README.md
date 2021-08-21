@@ -1,3 +1,3 @@
-# cap_im_overview
+## cap_im_overview
 
-**temporary** home for a review of Information Management at the CAP LTER to the NSF review team - October 2020
+Slides for a presentation to the October 2020 NSF site review team regarding information management at the CAP LTER.
